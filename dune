@@ -1,2 +1,0 @@
-(ocamllex (modules monsql))
-(executable (name demo)) ;(flags -w -39 -w -27)

@@ -1,0 +1,14 @@
+opam-version: "1.2"
+name: "monsql"
+version: "0.1"
+maintainer: "Guillaume Huysmans <ghuysmans99@gmail.com>"
+authors: "Guillaume Huysmans <ghuysmans99@gmail.com>"
+homepage: "https://github.com/ghuysmans/monsql/"
+bug-reports: "https://github.com/ghuysmans/monsql/issues"
+dev-repo: "git://github.com/ghuysmans/monsql/"
+build: [["dune" "build" "-p" name "-j" jobs]]
+build-test: [["dune" "runtest" "-p" name "-j" jobs]]
+synopsis: "Write SQL in French (inspired by the InterIUT 2020 CTF)"
+depends: [
+  "dune"
+]
