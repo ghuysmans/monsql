@@ -1,0 +1,1 @@
+(executable (name client) (modes js) (libraries monsql) (preprocess (pps js_of_ocaml-ppx)))

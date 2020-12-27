@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>MonSQL, le language de requêtes souverain</title>
+<meta name="viewport" content="width=device-width">
+<script src="client.bc.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<textarea id="monsql" onkeyup="document.getElementById('sql').value = MonSQL.compile(document.getElementById('monsql').value)"></textarea>
+<textarea id="sql"></textarea>
+</body>
+</html>
